@@ -1,0 +1,33 @@
+p> Lighthouse image - https://pixabay.com/photos/lighthouse-saint-augustine-sky-blue-4022081/ </p>
+https://pixabay.com/users/paulbr75-2938186/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1899656">Paul Brennan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1899656
+https://pixabay.com/users/jdolv3r-20125325/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5974636<a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5974636">Pixabay</a></p>
+https://pixabay.com/photos/florida-saint-augustine-historic-1778741/
+
+<img src="images/lion.jpg" alt="Lion statue" height="400" width="300" />
+<p> Some other various content </p>
+
+https://pixabay.com/photos/house-inn-tavern-bavaria-yellow-3398116/ (INN)
+
+https://pixabay.com/photos/cover-plate-cutlery-restaurant-1589427/ (PLATE)
+
+https://pixabay.com/photos/architecture-cottage-exterior-2756145/ (COTTAGE)
+
+<img src="images/flagler.jpg" alt="Flagler college" height="400" width="300" />
+<p> Some other various content and information</p>
+
+(HISTORY)
+https://www.history.com/news/st-augustine-first-american-settlement
+
+https://www.citystaug.com/693/Our-History
+
+(THINGS TO DO)
+https://www.visitstaugustine.com/things-to-do/attractions
+
+(IF I WANT TO ANIMATE THINGS AGAIN)
+$("#things h1").animate(
+{ fontSize: "275%", opacity: 1, left: 0 },
+2000
+);
+
+
+

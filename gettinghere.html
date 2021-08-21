@@ -1,0 +1,70 @@
+<!--Holly Bancroft -->
+<!--Seminole State College-->
+<!--COP2831-->
+<!--Prof. Rebekah Rosario-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit St. Augustine</title>
+    <link rel="stylesheet" href="style.css">
+	 <script src="jquery-3.6.0.js"></script>
+	 
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZZpgj2KMizETvUZrrbgwF-6W1lwdRJWk&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+	<script src="main.js"></script>
+	<script> 
+	function initMap() {
+        // The location of St. Augustine
+        const staug = { lat: 29.9012, lng: -81.3124 };
+        // The map, centered at St. Augustine
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 10,
+          center: staug,
+        });
+        // The marker, positioned at St. Augustine
+        const marker = new google.maps.Marker({
+          position: staug,
+          map: map,
+        });
+      }
+</script>
+
+	
+</head>
+<main>
+
+<!--The top navigation bar-->
+<div id="topnav">
+<h3>St. Augustine, Florida</h3>
+<a href="glossary.html">Glossary</a>
+  <a href="gettinghere.html">Getting Here</a>
+  <a href="events.html">Events</a>
+  <a href="places.html">Places to Stay</a>
+   <a href="things-sights.html">Things to Do</a>
+   <a href="history.html">History</a>
+	<a href="index.html">Home</a>
+	</div>
+<hr>
+<body id="gettinghere">
+<h1>Getting Here</h1>
+
+<p>
+	DIRECTIONS FROM I-95<br><br>
+		Take exit 318 onto State Road 16 headed east for five miles.<br> 	Make a right turn onto US-1 South for one mile, then make a left onto West Castillo Drive. <br>		There is Visitor's Center parking at the end of this road!
+	</p>
+	
+ <h3>St. Augustine, Florida</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+	
+	
+
+</body>
+
+</main>
+</html>

@@ -1,0 +1,285 @@
+
+/*Holly Bancroft*/
+/*Seminole State College*/
+/*COP2831*/
+/*Prof. Rebekah Rosario*/
+
+/*Styles for entire website*/
+html{
+	margin: 1em;
+	background: #000;
+	color: #fff;
+}
+#topnav{
+	background-color: #000;
+	overflow: hidden;
+}
+#topnav h3{
+	float: left;
+	font-size: 25px;
+}
+#topnav a{
+	float: right;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/*Styles for bxslider */
+.slide-img li{
+	display: block;
+	margin-left: 3em;
+	margin-right: auto;
+	height: 500px;	
+}
+
+.textDetail{
+	color: #fff;
+	top: 400px;
+	left: 100px;
+	text-shadow: 5px 5px 25px black;
+	position: absolute;
+	font-size: 50px;
+}
+
+/*End of styles for bxslider */
+
+/*Styles for history.html */
+.column{
+	float: left;
+	width:50%;
+	
+}
+.column img{
+	margin-left:12em;
+}
+.column p{
+	text-align: center;
+	font-size:  2em;
+	margin-right: 2em;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+#history h1{
+	position: relative;
+	left: -175px;
+	font-size: 175%;
+	opacity: .2;
+	color: #fff;
+	font-family: "Georgia", sans-serif;
+	text-shadow: 5px 5px 25px black;
+	background-image: url("images/map.jpg");
+	padding: 2em;
+}
+}
+.wrapper{
+	margin: 15px;
+}
+.hrow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.hrow2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	
+}
+.hcolumn{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+.first-column{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+.second-column{
+	display: none;
+	margin-top: 70px;
+	margin-bottom: 25px;
+	font-size: 1.2em;
+}
+.first-column img{
+	border: solid gray 10px;
+}
+/* End of sytles for history.html*/
+
+/* STYLES FOR THINGS-SIGHTS.HTML*/
+#things h1{
+	position: relative;
+	left: -175px;
+	font-size: 175%;
+	opacity: .2;	
+	color: #fff;
+	text-shadow: 5px 5px 25px black;
+	font-family: "Georgia", sans-serif;
+	background-image: url("images/flagler.jpg");
+	padding: 2em;
+}
+
+#sidenav {
+  
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */	
+  background-color: #000; 
+margin-left: 3em;
+  margin-top: 2em;
+  
+  border: solid white;
+}
+#sidenav a {
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  display: block;
+}
+
+.page{
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+.page h2{
+	font-size:40px;
+	margin-right: 10em;
+	
+	
+}
+.page img{
+	float:right;
+	margin-right: 3em;
+}
+.page p{
+	float: left;
+	margin-left:11em;
+	margin-bottom: 1.5em;
+}
+.page ul{
+	display: none;
+}
+.page h3{
+	float: left;
+	margin-left: 10em;
+	
+}
+.page h3 a{
+	text-decoration: underline;
+	color: #fff;
+}
+
+/*End of styles for things-sights*/
+
+/*Styles for places.html*/
+#places h1{
+	position: relative;
+	left: -175px;
+	font-size: 175%;
+	opacity: .2;
+	color: #fff;
+	font-family: "Georgia", sans-serif;
+	text-shadow: 5px 5px 25px black;
+	background-image: url("images/inn.jpg");
+	padding: 2em;
+}
+#places h2{
+	margin-left:7em;
+	margin-right: 7em;
+	margin-top: 1em;
+	padding:1em;
+}
+/*Styles for accordion widget*/
+#accordion{
+	margin-left: 7em;
+	float: left;
+}
+#accordion h3{
+	font-size: 175%;
+}
+#accordion a{
+	color: #add8e6;
+	font-size:  150%;
+
+}
+#places img{
+	float: right;
+	margin-right: 6em;
+	padding: 1em;
+	
+}
+/*Styles for events.html */
+#events h1{
+	position: relative;
+	left: -175px;
+	font-size: 175%;
+	opacity: .2;
+	color: #fff;
+	font-family: "Georgia", sans-serif;
+	text-shadow: 5px 5px 25px black;
+	background-image: url("images/castle.jpg");
+	padding: 2em;
+}
+#events label{
+	font-size: 125%;
+	padding: 1em;
+}
+#events legend{
+	font-size: 150%;
+}
+#button{
+	font-size: 125%;
+}
+/*Styles for gettinghere.html*/
+#gettinghere h1{
+	position: relative;
+	left: -175px;
+	font-size: 175%;
+	opacity: .2;
+	color: #fff;
+	font-family: "Georgia", sans-serif;
+	text-shadow: 5px 5px 25px black;
+	background-image: url("images/building.jpg");
+	padding: 2em;
+}
+#gettinghere h3{
+	font-size: 125%;
+}
+#map {
+  height: 400px;
+  width: 48%;
+  
+}
+#gettinghere p{
+	float:right;
+	clear: left;
+	margin-top: 3em;
+	font-size:125%;
+}
+footer{
+	text-align: center;
+	padding: 3px;
+	
+}
+
+}
